@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+use DeadalusPHP\Commands\Runner;
+
+define('DEADALUS_START', microtime(true));
+if ($argc < 2) {
+    echo "Usage: php deadalus <command> [options]\n";
+    exit(1);
+}
+require __DIR__.'/vendor/autoload.php';
+new Runner($argv[1], array_slice($argv, 2));
+exit(0);
