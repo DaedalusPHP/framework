@@ -1,6 +1,6 @@
 {
 
-  "name": "deadalusphp/freamwork",
+  "name": "deadalusphp/framework",
   "description": "DeadalusPHP is a lightweight and easy-to-use PHP framework designed to be a fast. With a focus on simplicity, it offers essential tools for routing, database handling, and more, without the overhead of larger frameworks.",
   "type": "library",
   "license": "MIT",
