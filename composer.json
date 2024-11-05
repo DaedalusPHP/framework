@@ -27,11 +27,11 @@
     "ext-simplexml": "*",
     "ext-pgsql": "*",
     "ext-curl": "*",
-    "deadalusphp/commands": "^1.0.2",
-    "deadalusphp/filesystem": "^1.0.2",
-    "deadalusphp/request": "^1.0.2",
-    "deadalusphp/response": "^1.0.2",
-    "deadalusphp/router": "^1.0.2"
+    "deadalusphp/commands": "dev-main",
+    "deadalusphp/filesystem": "dev-main",
+    "deadalusphp/request": "dev-main",
+    "deadalusphp/response": "dev-main",
+    "deadalusphp/router": "dev-main"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5"
